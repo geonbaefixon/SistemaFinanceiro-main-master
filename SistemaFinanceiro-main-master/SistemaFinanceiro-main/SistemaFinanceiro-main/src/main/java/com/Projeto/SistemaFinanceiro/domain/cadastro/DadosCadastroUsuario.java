@@ -6,7 +6,7 @@ public record DadosCadastroUsuario(
     @NotBlank(message = "Login é obrigatório!!!")
     String login,
 
-    @NotBlank("Senha é obrigatória!!!")
+    @NotBlank(message = "Senha é obrigatória!!!")
     String senha
 ){
 
